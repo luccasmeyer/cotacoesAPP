@@ -7,42 +7,36 @@
     <title>cotacoesAPP</title>
 </head>
 <body>
-    <h1 class="text-center">COTAÇÕES</h1>
+    <h1 class="text-center text-2xl font-bold mt-4">COTAÇÕES</h1>
 
-    <div class="bg-green-500 flex space-x-72 flex items-center justify-center mt-16 ml-4 mr-4">
+    <div class="bg-gray-500 flex space-x-10 items-center justify-center mt-16 ml-4 mr-4 p-4 rounded-lg">
         
-        <div id="euro"
-        class="bg-red-200 w-32">
-            <p id="nome"
-            class="font-bold text-center mb-4">nome</p>
-            <p id="code">code</p>
-            <p id="high"
-            class="text-right">high</p>
-            <p id="low"
-            class="text-right">low</p>
+        <!-- Euro -->
+        <div id="euro" class="bg-gray-200 w-40 p-4 rounded-lg shadow-lg">
+            <p class="nome font-bold text-center mb-2">Euro</p>
+            <p class="code text-center"></p>
+            <p class="bid text-center font-bold"></p>
+            <p class="high text-center mt-2  text-xs"></p>
+            <p class="low text-center  text-xs"></p>
         </div>
 
-        <div id="dolar"
-        class="bg-red-200 w-32">
-            <p id="nome"
-            class="font-bold text-center mb-4">nome</p>
-            <p id="code">code</p>
-            <p id="high"
-            class="text-right">high</p>
-            <p id="low"
-            class="text-right">low</p>
+        <div id="dolar" class="bg-gray-200 w-40 p-4 rounded-lg shadow-lg">
+            <p class="nome font-bold text-center mb-2">Dólar</p>
+            <p class="code text-center"></p>
+            <p class="bid text-center font-bold"></p>
+            <p class="high text-center mt-2  text-xs"></p>
+            <p class="low text-center  text-xs"></p>
         </div>
 
-        <div id="bitcoin"
-        class="bg-red-200 w-32">
-            <p id="nome"
-            class="font-bold text-center mb-4">nome</p>
-            <p id="code">code</p>
-            <p id="high"
-            class="text-right">high</p>
-            <p id="low"
-            class="text-right">low</p>
+        <div id="bitcoin" class="bg-gray-200 w-40 p-4 rounded-lg shadow-lg">
+            <p class="nome font-bold text-center mb-2">Bitcoin</p>
+            <p class="code text-center"></p>
+            <p class="bid text-center font-bold"></p>
+            <p class="high text-center mt-2  text-xs"></p>
+            <p class="low text-center  text-xs"></p>
         </div>
     </div>
+
+    <script src="cotacoesAPP.js"></script>
 </body>
 </html>
